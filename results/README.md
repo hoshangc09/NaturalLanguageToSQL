@@ -1,11 +1,17 @@
-# Results Folder
+# Checkpoint-50 Contents
 
-This folder holds the outputs from the SQL Query Generation project. It includes various checkpoints and the final model parameters after training. Here is a brief description of its contents:
+This folder contains various configuration and model files for the `checkpoint-50` of the SQL Query Generation project.
 
-- `checkpoint-50`: Contains model parameters saved after 50 training steps.
-- `checkpoint-100`: Contains model parameters saved after 100 training steps.
-- `final_model`: Stores the final version of the model after the complete training process.
-- `my_model`: A user-defined checkpoint for the model, potentially for personal or specific checkpoints of interest.
-- `tmp-checkpoint-50`: A temporary checkpoint created during training, usually for internal use by the training framework.
+## Files Description
 
-Each subfolder contains the necessary model files, including configuration, weights, and tokenizer files, to resume training or perform inference as required.
+- `added_tokens.json`: Contains additional tokens that may have been added during tokenization.
+- `config.json`: The model's configuration file with settings and hyperparameters.
+- `generation_config.json`: Configuration settings specific to sequence generation.
+- `model.saftensors`: A file potentially containing model weights, but the specific format and use might be unique to the training framework used.
+- `special_tokens_map.json`: Maps special tokens to their purpose within the tokenizer.
+- `spiece.model`: The SentencePiece model file used by the tokenizer for subword segmentation.
+- `tokenizer_config.json`: Configuration for the tokenizer.
+
+These files collectively represent a saved state of the model at step 50, which can be used to resume training, perform inference, or analyze the model's behavior at this early stage.
+
+For additional guidance on how to use these files with the Transformers library, refer to the Hugging Face documentation.

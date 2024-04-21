@@ -20,3 +20,8 @@ Future work will focus on expanding the training dataset, implementing more soph
 
 **Note on Importing Libraries:**
 Throughout this Jupyter notebook, libraries are imported as needed within individual cells to maintain clean and efficient code execution. This approach is intentional to accommodate the varied computational demands of each step and to optimize the use of resources on the laptop used for model development and training.
+
+Certainly, here's a concise note regarding the model link:
+
+**Note on Model Reference:**
+For detailed information on the T5-small model and its fine-tuning process for the SQL query generation task, please refer to the Hugging Face model repository at [this link](https://huggingface.co/mrm8488/t5-small-finetuned-wikiSQL). This repository provides insights into the model architecture and fine-tuning techniques applicable for similar natural language processing tasks.

@@ -20,7 +20,14 @@ The model, implemented on a standard laptop using a T5-small configuration from 
 Given the resource constraints—both in terms of computing power and the size of the dataset used for training (only 5,000 out of over 56,000 available records)—these results are promising. They suggest that with further tuning of the model parameters, expansion of the training dataset, and possibly the deployment of more powerful hardware or larger model architectures, there is substantial room for improvement. Enhancing these factors could significantly increase accuracy and make the solution more viable for practical applications, especially for marketers seeking to leverage data-driven insights without deep technical knowledge of databases.
 
 # Next Steps
-Future work will focus on expanding the training dataset, implementing more sophisticated data preprocessing techniques, and exploring alternative model architectures or ensemble methods to enhance accuracy.
+Absolutely, here's an enhancement to the "Next Steps" section that includes the aspect of increasing computational resources:
+
+Next Steps
+Future development of this project will initially focus on expanding the training dataset to expose the model to a broader spectrum of SQL queries and linguistic patterns. This expansion is crucial for improving the model's comprehension and accuracy. Alongside, there will be a concerted effort to refine data preprocessing techniques. Enhancing tokenization processes and optimizing input features are expected to significantly improve the model's ability to understand and interpret complex queries.
+
+Additionally, increasing computational resources will play a pivotal role in accelerating model training and experimentation. Access to higher processing power, such as advanced GPUs or distributed computing environments, will enable the use of more sophisticated, computationally intensive model architectures without the constraints experienced during initial development on standard laptops. This can lead to quicker iterations and more extensive parameter tuning.
+
+Exploring alternative model architectures, such as ensemble methods or advanced transformer-based models tailored for SQL generation, will also be considered to enhance performance. These approaches, supported by increased computational resources, are aimed at not only improving accuracy but also ensuring the robustness and scalability of the solution for practical, real-world applications in various marketing contexts. The goal is to develop a tool that not only accurately translates natural language into SQL but does so with efficiency that meets the fast-paced demands of business environments.
 
 **Note on Importing Libraries:**
 Throughout this Jupyter notebook, libraries are imported as needed within individual cells to maintain clean and efficient code execution. This approach is intentional to accommodate the varied computational demands of each step and to optimize the use of resources on the laptop used for model development and training.
